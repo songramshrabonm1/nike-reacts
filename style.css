@@ -3,3 +3,22 @@
     padding: 0px;
     box-sizing: border-box;
 }
+        /* ..........Carsoul bg-img added............ */
+.bg-img{
+    background-image: url(./icons/Group\ 33102.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;   
+}
+
+     /* ..........Carsoul bg-img added............ */
+.quality{
+    width: 236px;
+    height: 262px;
+    background-color: #00000026;
+}
+
+.buy{
+    
+}
