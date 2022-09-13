@@ -3,6 +3,14 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500;600;700&family=Roboto:wght@700&display=swap');
+/* font style  */
+.body{
+     font-family: 'Roboto', sans-serif;;
+}
+
         /* ..........Carsoul bg-img added............ */
 .bg-img{
     background-image: url(./icons/Group\ 33102.png);
@@ -10,6 +18,9 @@
     background-size: contain;
     background-position: center;
     background-origin: content-box;   
+}
+.font-style-head{
+     font-family: 'Bebas Neue', cursive;
 }
 
      /* ..........Carsoul bg-img added............ */

@@ -25,7 +25,7 @@
         <header>
                     <!-- .........Navigation section start............. -->
             <section>
-                <nav class="navbar navbar-expand-lg bg-light  ">
+                <nav class="navbar navbar-expand-lg bg-light home shadow fixed-top  ">
                     <div class="container-fluid">
                         <a class="navbar-brand ps-5" href="#">
                             <img class="img-fluid" src="./icons/Logo.png" alt="logo" width="350">
@@ -36,16 +36,16 @@
                       <div class="collapse navbar-collapse container" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                           <li class="nav-item">
-                            <a class="nav-link active pe-3" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active pe-3" aria-current="page" href=".home">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link pe-3" href="#">product</a>
+                            <a class="nav-link pe-3" href="#product">product</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link pe-3" href="#">About us</a>
+                            <a class="nav-link pe-3" href="#about">About us</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link pe-5" href="#">Contract us</a>
+                            <a class="nav-link pe-5" href="#contract">Contract us</a>
                           </li>
                         </ul>
                       </div>
@@ -53,7 +53,7 @@
                   </nav>
             </section>
                       <!-- ................Navigation part end .................. -->
-            <section class="my-5"> 
+            <section class="my-5 py-5"> 
                 <div class="container">
                     
                     <div class="row d-flex align-items-center justify-content-center ">
@@ -80,11 +80,11 @@
                                 </button>
                               </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 col-12 order-sm-2 order-2 gx-5">
+                        <div class="col-lg-4 col-sm-12 col-12 order-sm-2 order-2 gx-5 ms-5 mt-5 ">
                             <h2 class="fw-bold display-5">
                                 <span class="text-warning">NIKE REACT</span><br><span class="text-success">Infinity Run 2 </span> 
                             </h2>
-                            <p>Almost all Nike shoes are manufactured outside of the United States. The leading manufacturer of Nike shoes is China and Vietnam each accounting for 36% of the total manufactured world wide</p>
+                            <p class="font-style-head">Almost all Nike shoes are manufactured outside of the United States. The leading manufacturer of Nike shoes is China and Vietnam each accounting for 36% of the total manufactured world wide</p>
                             <button type="button" class="btn btn-primary mx-2"><i class="fa-solid fa-cart-shopping px-2"></i>Buy now</button>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
         
         <main>
             <!-- ...........casual shoe section................ -->
-            <section class="my-5 py-5 container">
+            <section class="my-5 py-5 container" id="product">
                 <h2 class="text-success fw-bold my-5">CASUAL SHOES</h2>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col ">
@@ -143,7 +143,7 @@
 
                 <!-- .................formal shoe section start ............. -->
 
-            <section class="my-5 py-5 container">
+            <section class="my-5 py-5 container product" id="product">
                 <h4 class="text-success fw-bold my-5">FORMAL SHOES</h4>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col ">
@@ -193,10 +193,10 @@
                 <!-- ...........Subscriber section start................ -->
 
                 <section>
-                    <div class="container px-4 py-5  my-5">
+                    <div class="container px-4 py-5  my-5 contract" id="contract">
                         <h2 class="text-success fw-bold container my-5">CONTRACT</h2>
                         <div class="row gx-5">
-                          <div class="col">
+                          <div class="col-lg-6 col-sm-12 col-12 order-lg-1 order-sm-2 order-2">
                            <div class="p-3  ">
                             <div class="row">
                                 <div class="col-12">
@@ -226,9 +226,7 @@
                                             <div class="card-body">
                                               <h5 class="card-title text-start">Free Exchanges
                                             </h5>
-                                              <p class="card-text text-start">One of the many reasons you can shop
-
-                                                with peace of mind.</p>
+                                              <p class="card-text text-start">One of the many reasons you can shop with peace of mind.</p>
                                             </div>
                                           </div>
                                         </div>
@@ -256,7 +254,7 @@
                               
                             </div>
                           </div>
-                          <div class="col d-flex align-items-center justify-content-center ">
+                          <div class="col d-flex align-items-center justify-content-center col-lg-6 col-sm-12 col-12 order-lg-1 order-sm-1 order-1">
                             <div class="p-3  bg-light ">
                                 <img class="img-fluid" src="./icons/XMLID 1.png" alt="">
                             </div>
@@ -267,7 +265,7 @@
                 <!-- ...........Subscriber section End................ -->    
         </main>
 
-        <footer class="container-fluid bg-dark ">
+        <footer class="container-fluid bg-dark about" id="about">
             <h2 class="text-center text-white pt-5">Start your marketing journey now. Join any of our <br> free or paid courses today</h2>
             <p class="text-white text-center py-2">Contact us for additional support.</p>
             <div class="button d-flex justify-content-center align-items-center py-5">
